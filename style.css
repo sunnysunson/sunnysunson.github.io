@@ -9,7 +9,7 @@ body {
 }
 
 .nav {
-	background-color: white;
+	background-color: blue;
 	color: black;
 	list-style: none;
 	text-align: right;
@@ -21,17 +21,18 @@ body {
 	padding-right: 50px;
 	font-size: 15px;
 	font-weight: bold;
-	
 }
 
 .nav > li > a {
 	text-decoration: none;
 	color: black;
-	
+	cursor: pointer;
+	position: relative
 }
 
 .nav > li > a:hover {
 	color: #c1c1c1;
+	top: 2px;
 }
 
 .logo{
