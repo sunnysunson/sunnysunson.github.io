@@ -4,7 +4,7 @@ body {
 	font-family: 'Arial', serif;
 }
 
-#menu {
+.menu {
 	background-color: black;
 }
 
@@ -48,20 +48,6 @@ body {
 	background-color: #97D3DF;
 	padding: 20px;
 	clear: both;
-}
-
-
-.banner
-{
-	width: 50%;
-	display: block;
-	padding-left: 100px;
-}
-
-.banner > .banner-image
-{
-	width: 10%;
-	display: block;
 }
 
 
